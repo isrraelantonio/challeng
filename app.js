@@ -1,11 +1,11 @@
 //declaração das varáveis a serem utilizadas no código.
 
-
+let amigos = []
 
 // Criação da função adicionarAmigo. A mesma coleta o valor do input, verifincando inclusive se o mesmo é vázio ou não para tratamento de exceções. 
 
 function adicionarAmigo(){
-    let amigos = []
+    
     let amigo =  document.querySelector('input').value.trim();
 
 
